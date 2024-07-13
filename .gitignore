@@ -1,0 +1,38 @@
+  __attempt_01/
+# Ignore node_modules directories
+*node_modules/
+
+# Ignore build directories
+*build/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore package output
+*.tgz
+
+# Ignore environment variable files
+*.env
+
+# Ignore log files
+*.log
+npm-debug.log*
+
+# Ignore eslint cache
+.eslintcache
+
+# Ignore jest cache and coverage directory
+jest/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
